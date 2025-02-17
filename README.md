@@ -16,3 +16,8 @@ After experiencing the hassle of having typed SHA256 hashes in the Proxmox conso
 ```
 4. Paste the text you want to type in the console
 5. You have 10 seconds to focus on the Proxmox console or any other window
+
+## TODO
+- [ ] Add support for X11
+- [ ] Add support for other hypervisors
+- [ ] Add support for Windows
