@@ -11,8 +11,8 @@ func main() {
 	var input string
 	fmt.Scanln(&input)
 
-	fmt.Println("Switching to target window in 10 seconds...")
-	time.Sleep(3 * time.Second)
+	fmt.Println("Switching to target window in 5 seconds...")
+	time.Sleep(5 * time.Second)
 
 	// using ydotool to type the text
 	cmd := exec.Command("sudo", "ydotool", "type", input)
